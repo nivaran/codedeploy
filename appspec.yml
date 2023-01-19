@@ -1,14 +1,14 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: /
+    destination: /root/
   
 hooks:
   BeforeInstall:
-    - location: /s
+    - location: /r.sh
       runas: root
-      timeout: 300
+      timeout: 100
     
 #   AfterInstall:
 #     - location: Scripts/RunResourceTests.sh

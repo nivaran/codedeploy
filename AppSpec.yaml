@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-        - source: AppSpec.yaml
-          destination: /ram/AppSpec.yaml
+        - source: r.txt
+          destination: /root/ram/
     # - source: source
     #  destination: /webapps/myApp
     #hooks:

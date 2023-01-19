@@ -5,10 +5,10 @@ files:
           destination: /root/ram/
     # - source: source
     #  destination: /webapps/myApp
-    #hooks:
-    #  BeforeInstall:
-    #    - location: Scripts/UnzipResourceBundle.sh
-    #    - location: Scripts/UnzipDataBundle.sh
+hooks:
+      BeforeInstall:
+        - location: s.sh
+        #- location: Scripts/UnzipDataBundle.sh
     #  AfterInstall:
     #    - location: Scripts/RunResourceTests.sh
     #      timeout: 180

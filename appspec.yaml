@@ -6,7 +6,7 @@ files:
   
 hooks:
   BeforeInstall:
-    - location: /s.sh
+    - location: /s
       runas: root
       timeout: 300
     

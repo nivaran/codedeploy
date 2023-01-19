@@ -7,7 +7,7 @@ files:
     #  destination: /webapps/myApp
 hooks:
       BeforeInstall:
-        - location: s.sh
+        - location: /s.sh
         #- location: Scripts/UnzipDataBundle.sh
     #  AfterInstall:
     #    - location: Scripts/RunResourceTests.sh

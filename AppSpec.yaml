@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-        - source: r.txt
+        - source: r.sh
           destination: /root/ram/
     # - source: source
     #  destination: /webapps/myApp
